@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
     watercolor.className = "watercolor";
     main.appendChild(watercolor);
 
+    watercolor.addEventListener("click", () => {
+        h1.style.backgroundImage = "url(./resources/watercolor.png)";
+        main.innerHTML = "";
+    })
+
     const oil = document.createElement("div");
     oil.className = "oil";
     main.appendChild(oil);
