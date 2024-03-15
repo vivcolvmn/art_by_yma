@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 188, 181);
+}
+
+h1 {
+    height: 179px;
+    width: 607px;
+    background-image: url("./resources/header.png");
+}
+
+.main {
+    height: 850px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watercolor {
+    height: 120px;
+    width: 337px;
+    background-image: url("./resources/watercolor.png");
+}
+
+.oil {
+    height: 120px;
+    width: 145px;
+    background-image: url("./resources/oil.png");
+}
+
+.penAndInk {
+    height: 120px;
+    width: 387px;
+    background-image: url("./resources/pen&ink.png");
+}
+
+.sculpture {
+    height: 120px;
+    width: 298px;
+    background-image: url("./resources/sculpture.png");
+}
+
+.mixedMedia {
+    height: 120px;
+    width: 446px;
+    background-image: url("./resources/mixed_media.png");
+}
+
+.digital {
+    height: 120px;
+    width: 262px;
+    background-image: url("./resources/digital.png");
+}
+
+.about {
+    height: 120px;
+    width: 202px;
+    background-image: url("./resources/about.png");
+}
