@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     main.appendChild(about);
 
     about.addEventListener("click", () => {
-        h1.style.backgroundImage = "url(./resources/watercolor.png)";
+        h1.style.backgroundImage = "url(./resources/about.png)";
         h1.style.height = "120px";
         h1.style.width = "202px"
         main.innerHTML = "";
