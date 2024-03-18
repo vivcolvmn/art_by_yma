@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-    height: 179px;
-    width: 607px;
+    height: 150px;
+    width: 584px;
     background-image: url("./resources/header.png");
 }
 
@@ -23,36 +23,36 @@ h1 {
 
 .watercolor {
     height: 120px;
-    width: 337px;
+    width: 321px;
     background-image: url("./resources/watercolor.png");
 }
 
 .penAndInk {
     height: 120px;
-    width: 387px;
+    width: 366px;
     background-image: url("./resources/pen&ink.png");
 }
 
 .sculpture {
     height: 120px;
-    width: 298px;
+    width: 281px;
     background-image: url("./resources/sculpture.png");
 }
 
 .mixedMedia {
     height: 120px;
-    width: 446px;
+    width: 427px;
     background-image: url("./resources/mixed_media.png");
 }
 
 .digital {
     height: 120px;
-    width: 262px;
+    width: 236px;
     background-image: url("./resources/digital.png");
 }
 
 .about {
     height: 120px;
-    width: 202px;
+    width: 190px;
     background-image: url("./resources/about.png");
 }
