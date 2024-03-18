@@ -11,6 +11,14 @@ document.addEventListener("DOMContentLoaded", () => {
     watercolor.className = "watercolor";
     main.appendChild(watercolor);
 
+    watercolor.addEventListener("mouseover", () => {
+        watercolor.style.backgroundImage = "url(./resources/watercolor1.png)";
+    })
+
+    watercolor.addEventListener("mouseleave", () => {
+        watercolor.style.backgroundImage = "url(./resources/watercolor.png)";
+    })
+
     watercolor.addEventListener("click", () => {
         window.scrollTo(0, 0);
         h1.style.backgroundImage = "url(./resources/watercolor.png)";
@@ -30,6 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const penAndInk = document.createElement("div");
     penAndInk.className = "penAndInk";
     main.appendChild(penAndInk);
+
+    penAndInk.addEventListener("mouseover", () => {
+        penAndInk.style.backgroundImage = "url(./resources/pen&ink1.png)";
+    })
+
+    penAndInk.addEventListener("mouseleave", () => {
+        penAndInk.style.backgroundImage = "url(./resources/pen&ink.png)";
+    })
 
     penAndInk.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -51,6 +67,14 @@ document.addEventListener("DOMContentLoaded", () => {
     sculpture.className = "sculpture";
     main.appendChild(sculpture);
 
+    sculpture.addEventListener("mouseover", () => {
+        sculpture.style.backgroundImage = "url(./resources/sculpture1.png)";
+    })
+
+    sculpture.addEventListener("mouseleave", () => {
+        sculpture.style.backgroundImage = "url(./resources/sculpture.png)";
+    })
+
     sculpture.addEventListener("click", () => {
         window.scrollTo(0, 0);
         h1.style.backgroundImage = "url(./resources/sculpture.png)";
@@ -70,6 +94,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const mixedMedia = document.createElement("div");
     mixedMedia.className = "mixedMedia";
     main.appendChild(mixedMedia);
+
+    mixedMedia.addEventListener("mouseover", () => {
+        mixedMedia.style.backgroundImage = "url(./resources/mixed_media1.png)";
+    })
+
+    mixedMedia.addEventListener("mouseleave", () => {
+        mixedMedia.style.backgroundImage = "url(./resources/mixed_media.png)";
+    })
 
     mixedMedia.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -91,6 +123,14 @@ document.addEventListener("DOMContentLoaded", () => {
     digital.className = "digital";
     main.appendChild(digital);
 
+    digital.addEventListener("mouseover", () => {
+        digital.style.backgroundImage = "url(./resources/digital1.png)";
+    })
+
+    digital.addEventListener("mouseleave", () => {
+        digital.style.backgroundImage = "url(./resources/digital.png)";
+    })
+
     digital.addEventListener("click", () => {
         window.scrollTo(0, 0);
         h1.style.backgroundImage = "url(./resources/digital.png)";
@@ -110,6 +150,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const about = document.createElement("div");
     about.className = "about";
     main.appendChild(about);
+
+    about.addEventListener("mouseover", () => {
+        about.style.backgroundImage = "url(./resources/about1.png)";
+    })
+
+    about.addEventListener("mouseleave", () => {
+        about.style.backgroundImage = "url(./resources/about.png)";
+    })
 
     about.addEventListener("click", () => {
         window.scrollTo(0, 0);
