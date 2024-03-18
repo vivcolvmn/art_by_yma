@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     watercolor.addEventListener("mouseover", () => {
         watercolor.style.backgroundImage = "url(./resources/watercolor1.png)";
-    })
+    });
 
     watercolor.addEventListener("mouseleave", () => {
         watercolor.style.backgroundImage = "url(./resources/watercolor.png)";
-    })
+    });
 
     watercolor.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
@@ -41,11 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     penAndInk.addEventListener("mouseover", () => {
         penAndInk.style.backgroundImage = "url(./resources/pen&ink1.png)";
-    })
+    });
 
     penAndInk.addEventListener("mouseleave", () => {
         penAndInk.style.backgroundImage = "url(./resources/pen&ink.png)";
-    })
+    });
 
     penAndInk.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -55,12 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
             location.reload();
-        })
+        });
     });
 
     const sculpture = document.createElement("div");
@@ -69,26 +69,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
     sculpture.addEventListener("mouseover", () => {
         sculpture.style.backgroundImage = "url(./resources/sculpture1.png)";
-    })
+    });
 
     sculpture.addEventListener("mouseleave", () => {
         sculpture.style.backgroundImage = "url(./resources/sculpture.png)";
-    })
+    });
 
     sculpture.addEventListener("click", () => {
         window.scrollTo(0, 0);
         h1.style.backgroundImage = "url(./resources/sculpture.png)";
         h1.style.height = "120px";
-        h1.style.width = "281px"
+        h1.style.width = "281px";
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
             location.reload();
-        })
+        });
     });
 
     const mixedMedia = document.createElement("div");
@@ -97,11 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mixedMedia.addEventListener("mouseover", () => {
         mixedMedia.style.backgroundImage = "url(./resources/mixed_media1.png)";
-    })
+    });
 
     mixedMedia.addEventListener("mouseleave", () => {
         mixedMedia.style.backgroundImage = "url(./resources/mixed_media.png)";
-    })
+    });
 
     mixedMedia.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -111,12 +111,12 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
             location.reload();
-        })
+        });
     });
 
     const digital = document.createElement("div");
@@ -125,11 +125,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     digital.addEventListener("mouseover", () => {
         digital.style.backgroundImage = "url(./resources/digital1.png)";
-    })
+    });
 
     digital.addEventListener("mouseleave", () => {
         digital.style.backgroundImage = "url(./resources/digital.png)";
-    })
+    });
 
     digital.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -139,12 +139,12 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
             location.reload();
-        })
+        });
     });
 
     const about = document.createElement("div");
@@ -153,11 +153,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     about.addEventListener("mouseover", () => {
         about.style.backgroundImage = "url(./resources/about1.png)";
-    })
+    });
 
     about.addEventListener("mouseleave", () => {
         about.style.backgroundImage = "url(./resources/about.png)";
-    })
+    });
 
     about.addEventListener("click", () => {
         window.scrollTo(0, 0);
@@ -167,12 +167,12 @@ document.addEventListener("DOMContentLoaded", () => {
         main.innerHTML = "";
         const reload = document.createElement("button");
         reload.className = "reload";
-        reload.innerText = "back"
+        reload.innerText = "back";
         main.appendChild(reload);
 
         reload.addEventListener("click", () => {
             location.reload();
-        })
+        });
     });
 
 });
