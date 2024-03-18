@@ -3,7 +3,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(87, 168, 222);
+    background-image: url("./resources/background_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(1, 156, 152);
 }
 
 h1 {
@@ -14,7 +17,7 @@ h1 {
 
 .main {
     height: 850px;
-    width: 500px;
+    width: 584px;
     display: flex;
     flex-direction: column;
     justify-content: center;
